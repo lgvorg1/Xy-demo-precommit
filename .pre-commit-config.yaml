@@ -14,7 +14,7 @@ repos:
     #-   id: trailing-whitespace
     -   id: end-of-file-fixer
     -   id: check-yaml
--   repo: git://github.com/xygeni/xygeni-action
+-   repo: https://github.com/xygeni/xygeni-action
     rev: v1.2
     hooks:
     - id: xygeni
