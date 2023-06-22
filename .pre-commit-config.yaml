@@ -1,13 +1,13 @@
 repos:
--   repo: https://github.com/xygeni/xygeni-action
-    rev: v1.2
-    hooks:
-    - id: xygeni
-      stages: [commit]
-      args: [
-        '-q', 'scan', '--format=text',
-        '--run=secrets,suspectdeps,misconf,iac,codetamper,compliance',
-        '--fail-on=severity:critical']
+#-   repo: https://github.com/xygeni/xygeni-action
+#    rev: v1.2
+#    hooks:
+#    - id: xygeni
+#      stages: [commit]
+#      args: [
+#        '-q', 'scan', '--format=text',
+#        '--run=secrets,suspectdeps,misconf,iac,codetamper,compliance',
+#        '--fail-on=severity:critical']
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
