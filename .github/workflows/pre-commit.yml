@@ -11,6 +11,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v3
+    # Runs a single command using the runners shell
+    - name: Git Log
+      run: git log
     - uses: pre-commit/action@v3.0.0
     #- name: Cat pre-commit.log 
     #  if: always()
